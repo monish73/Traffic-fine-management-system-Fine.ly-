@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #F1FAEE;
+    color: #1D3557;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.logo-main {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main-nav {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    float: right;
+    list-style: none;
+    font-weight: 500;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color:#1d3557;
+    text-decoration: none;
+    font-size:100%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #1d3557;
+}
+
+.nav-prop {
+    border-bottom:  1px solid #1D3557;
+}
+
+h1 {
+    font-weight: 900;
+    font-stretch: expanded;
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-para{
+    font-weight: 400;
+    font-stretch: expanded;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.main-img {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.btn-paynow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 35% 5% 35%;
+    padding: 10px 0px;
+    background-color: #E63946;
+    color: #F1FAEE;
+	font-size: 40px;
+    font-weight: 700;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.btn-paynow:hover{
+    background-color: #b41523;
+}
+footer {
+     background: #1D3557;
+     color: #F1FAEE;
+}
+
+.span-1-of-4 {
+    float:right;
+}
+
+.list {
+    margin-top: 5%;
+    margin-left: 15%;
+    font-weight: 400;
+    font-size: 18px;
+    list-style: none;
+    line-height: 150%;
+}
+.first-li {
+    font-weight: 500;
+}
+.footer-logo {
+    display: block;
+    height: 40px;
+    width: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-div {
+    border-bottom:1px solid #F1FAEE;
+
+}
+.footer-lower-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 1%;
+    font-weight: 500;
+    font-size: 20px;
+}
+.copyright {
+    display: block;
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 1%;
+}
+.social-media {
+    width: 80%;
+    height: 80%;
+}
